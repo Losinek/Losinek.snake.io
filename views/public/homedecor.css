@@ -1,0 +1,80 @@
+#mc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: verdana,arial;
+    background-image: url(mainbg.png);
+    background-color: #030407;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+#gamebutton{
+    position: absolute;
+    left 100px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 260px;
+    height: 60px;
+    text-align: center;
+    top: 34px;
+    color: aliceblue;
+    font-family: verdana,arial;
+    font-size:40px;
+    border-radius: 40px;
+    padding: 1px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    background-image: linear-gradient(#0f62ba, #000f3d);
+}
+a:visited{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: verdana,arial;
+}
+#gamebutton:hover{
+    box-shadow: 1px 5px 18px #ff4da6;
+}
+#leaderboards{
+    position: absolute;
+    left 100px;  
+    width: 60%;
+    height: 60%;
+    top: 165px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    color:aliceblue;
+}
+.list{
+    font-size: 24px;
+}
+/*
+#gamename{
+    position: absolute;
+    top:75%;
+    font-size: 90px;
+    color:white;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+*/
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}

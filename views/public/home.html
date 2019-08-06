@@ -1,0 +1,38 @@
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="homedecor.css">
+    </head>
+    <body>
+  
+        
+     
+        <div id="mc">
+<!--        <div id="gameButton"><a href="snakegame.html"> Play Game!!</a></div>-->
+            <br/>
+        <div id="leaderboards">
+            <h1><span class="list"> Leaderboards </span></h1>
+                <span class="list">Jan 999</span><br/>
+                <span class="list">Jomari 998</span><br/>
+                <span class="list">Nicole 997</span><br/>
+                <span class="list">Garay 996</span><br/>
+                <span class="list">Morales 995</span><br/>
+                <span class="list">Silverio 994</span><br/>
+                <span class="list">Miss 993</span><br/>
+                <span class="list">Courtney 992</span><br/>
+                <span class="list">Ngo 991</span><br/>
+                <span class="list">Iranoutofnames 990</span><br/>
+        </div>
+            <span id="gameButton" onclick="play();"> <a href="snakegame.html"> Play SNAKE </a> </span>
+        </div>
+
+        
+        <script type="text/javascript" src="homescript.js">
+            
+            function play(){
+                var audio= new audio("eating_sound_effect.wav");
+                audio.play();
+            }
+        </script>
+        <embed src="bgmusic.mp3" autostart="true" loop="true" hidden="true">
+    </body>
+</html>

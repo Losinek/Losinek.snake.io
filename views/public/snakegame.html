@@ -1,0 +1,43 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="snakedecor.css">
+</head>
+<body>
+    <embed src="eating_sound_effect.wav" autostart="true" loop="true" hidden="true">
+    
+    <div id="mc">
+    <div id="score" style="position:absolute; left:1000px; top:120px">
+    </div>
+        <span class="label" style="position:absolute; left:1030px; top:239px;">Score</span>
+    <div id="score2" style="position:absolute; left:1000px; top:270px"> 
+    </div>
+         <span class="label"  style="position:absolute; left:1015px; top:389px;">Highscore</span>
+    <div id="homeButton"><a href="home.html"> Home!</a></div>
+    <div id="logButton"><a href="login.html">Register</a></div>
+<!--
+    <div id="namebutton">
+	<a href="#loginScreen" class="button"><span>Log in</span></a>
+    </div>
+    <div id="loginScreen">
+    <a href="#" class="cancel">&times;</a>
+        <span>Log in</span>
+        <form>
+            Username:
+            <input type="text">
+        </form>
+        <form>
+            Password:
+            <input type="password">
+        </form>
+        <button>Log in</button>
+        <button>Sign up</button>
+    </div>
+    <div id="cover">
+    </div>
+-->
+    <canvas width="400" height="400" id="game"></canvas>
+    <p id="dummy"></p>  
+    </div>
+<script type="text/javascript" src="snakescript.js"></script>
+</body>
+</html>
